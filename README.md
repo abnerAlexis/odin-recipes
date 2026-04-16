@@ -1,1 +1,1 @@
-<h1 "center"> ODIN RECIPES </h1>
+<h1> <center>ODIN RECIPES</center> </h1>
