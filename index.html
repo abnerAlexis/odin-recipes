@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>ODIN RECIPES</h1>
-    <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <li>
-            <h2><a href="recipes/pasta.html" class="recipe-title">Pasta</a></h2><br> 
-            <img src="images/pasta.jpg" alt="A delicious plate of pasta" width="250" height="200">
-            <p>A simple and delicious pasta dish.</p>
-        </li>
-        <li>
-            <h2><a href="recipes/meatball.html" class="recipe-title">Meatballs</a></h2><br> 
-            <img src="images/meatballs.jpg" alt="A delicious plate of pasta" width="250" height="200">
-            <p>Juicy and flavorful meatballs perfect for any meal.</p>
-        </li>
-        <li>
-            <h2><a href="recipes/chickensoup.html" class="recipe-title">Creamy Chicken Soup</a></h2><br> 
-            <img src="images/soup.jpg" alt="A delicious plate of pasta" width="250" height="200">
-            <p>A comforting bowl of chicken soup, perfect for chilly days.</p>
-        </li>
-    </ul>
+    <header>
+        <h1>ODIN RECIPES</h1>
+    </header>
+    <div class="grid-container">
+        <ul class="recipe-list grid">
+            <li>
+                <div class="recipe-intro">
+                    <h2><a href="recipes/pasta.html" class="recipe-title">Pasta
+                        <br><img src="images/pasta.jpg" class="intro-image" alt="A delicious plate of pasta">
+                    </a></h2><br>
+
+                    <p>A simple and delicious pasta dish.</p>
+                </div>
+            </li>
+            <li>
+                <div class="recipe-intro">
+                    <h2><a href="recipes/meatball.html" class="recipe-title">Meatballs
+                        <br><img src="images/meatballs.jpg" class="intro-image" alt="A delicious plate of pasta">
+                    </a></h2><br>
+                    <p>Juicy and flavorful meatballs perfect for any meal.</p>
+                </div>
+            </li>
+            <li>
+                <div class="recipe-intro">
+                    <h2><a href="recipes/chickensoup.html" class="recipe-title">Creamy Chicken Soup
+                        <br><img src="images/soup.jpg" class="intro-image" alt="A delicious plate of pasta">
+                    </a></h2><br>
+                    <p>A comforting bowl of chicken soup, perfect for chilly days.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2026 Odin Recipes. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
