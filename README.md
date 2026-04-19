@@ -1,1 +1,3 @@
-<h1> <center>ODIN RECIPES</center> </h1>
+# ODIN RECIPES
+
+Visit the website: [Odin Recipes](https://abneralexis.github.io/odin-recipes/)
