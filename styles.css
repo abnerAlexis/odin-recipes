@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #d4a8a8;
+  --secondary-color: #383232;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+
+.recipe-title {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
